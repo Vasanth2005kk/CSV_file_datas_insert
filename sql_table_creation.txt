@@ -1,0 +1,21 @@
+
+
+table create :
+
+create table insert_datas(model varchar(244),
+engine_power int,
+age_in_days int,
+km int,
+previous_owners int,
+lat int,
+lon int,
+price int);
+
+
+columns :
+
+       ['model', 'engine_power', 'age_in_days', 'km', 'previous_owners', 'lat',
+              'lon', 'price']
+
+
+select * from insert_datas;
